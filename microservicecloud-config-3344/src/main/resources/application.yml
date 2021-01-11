@@ -1,0 +1,13 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          # GitHub 仓库地址
+          uri: https://github.com/hjyang19/microservicecloud-config.git
+          #uri: git@github.com:hjyang19/microservicecloud-config.git # SSH 协议可能访问不到数据
